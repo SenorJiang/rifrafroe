@@ -1,0 +1,51 @@
+.gameButton{
+  background-color: white;
+  border:none;
+  width:33%;
+  height:33%;
+  text-align: center;
+  vertical-align: top;
+  font-size: 0px;
+  margin: 0px;
+}
+
+.container{
+  margin: auto;
+  height: 300px;
+  max-width: 300px;
+  position: relative;
+}
+
+input:nth-child(2n) {
+  border-left: solid black 0.5px;
+  border-right: solid black 0.5px;
+}
+
+input:nth-of-type(-n+3){
+  border-bottom: solid black 0.5px;
+}
+
+input:nth-of-type(n+7){
+  border-top: solid black 0.5px;
+}
+
+h1{
+    text-align:center;
+    font-family:Arial;
+}
+
+#resetBtn{
+    margin:auto;
+    border: none;
+    background: orange;
+    margin-top:1em;
+    width: 100px;
+    display: block;
+    font-family:Arial;
+}
+
+#winner{
+    text-align:center;
+    font-family:Arial;
+    
+}
