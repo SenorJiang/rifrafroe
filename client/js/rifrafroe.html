@@ -1,0 +1,25 @@
+<head>
+  <script src="rifrafroe.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <h1>RIFRAFROE</h1>
+
+  <form>
+    <div class="container">
+        <input type="button" onclick="takeTurn('00')" class="gameButton" id="00" /><input type="button" onclick="takeTurn('01')" class="gameButton" id="01" /><input type="button" onclick="takeTurn('02')" class="gameButton" id="02" />
+      <br>
+        <input type="button" onclick="takeTurn('10')" class="gameButton" id="10" /><input type="button" onclick="takeTurn('11')" class="gameButton" id="11" /><input type="button" onclick="takeTurn('12')" class="gameButton" id="12" />
+      <br>
+        <input type="button" onclick="takeTurn('20')" class="gameButton" id="20" /><input type="button" onclick="takeTurn('21')" class="gameButton" id="21" /><input type="button" onclick="takeTurn('22')" class="gameButton" id="22" />
+      <br>
+      <br>
+    </div>
+    <input type="reset" onclick="resetBoard()" id="resetBtn" value="Reset" />
+  </form>
+
+  <div id="winner"></div>
+
+</body>
